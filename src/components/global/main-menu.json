@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_main_menus",
+  "info": {
+    "displayName": "Main Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.button"
+    }
+  }
+}

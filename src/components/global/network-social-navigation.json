@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basic_network_social_navigations",
+  "info": {
+    "displayName": "Network Social Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.link"
+    }
+  }
+}

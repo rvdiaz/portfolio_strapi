@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "Theme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-menu"
+    },
+    "social_networks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.network-social-navigation"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.theme"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_basic_blogs",
+  "info": {
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

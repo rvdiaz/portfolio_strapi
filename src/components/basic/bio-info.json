@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_basic_bio_infos",
+  "info": {
+    "displayName": "Bio Category",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

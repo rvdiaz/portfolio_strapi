@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_logos",
+  "info": {
+    "displayName": "Perfil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "perfil": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background_page": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

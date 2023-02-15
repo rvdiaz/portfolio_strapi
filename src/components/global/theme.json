@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_global_themes",
+  "info": {
+    "displayName": "Theme",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryColor": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundPage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

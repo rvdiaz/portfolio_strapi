@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_basic_bio_contents",
+  "info": {
+    "displayName": "Bio Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categorytitle": {
+      "type": "string"
+    },
+    "categorycontent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.bio-info"
+    }
+  }
+}

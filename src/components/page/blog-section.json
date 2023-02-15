@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_blog_sections",
+  "info": {
+    "displayName": "Blog Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.blog"
+    },
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

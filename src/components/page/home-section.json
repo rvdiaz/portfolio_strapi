@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_home_sections",
+  "info": {
+    "displayName": "Home Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "personal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.personal-info"
+    }
+  }
+}
