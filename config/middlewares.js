@@ -12,14 +12,14 @@ module.exports = [
             'data:',
             'blob:',
             'dl.airtable.com',
-            'strapi-aws-s3-images-bucket.s3.eu-west-2.amazonaws.com', // change here
+            'rvdiaz-images.s3.us-east-1.amazonaws.com', // change here
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'dl.airtable.com',
-            'strapi-aws-s3-images-bucket.s3.eu-west-2.amazonaws.com', // change here
+            'rvdiaz-images.s3.us-east-1.amazonaws.com', // change here
           ],
           upgradeInsecureRequests: null,
         },
