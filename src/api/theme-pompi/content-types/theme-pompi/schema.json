@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_pompis",
+  "info": {
+    "singularName": "theme-pompi",
+    "pluralName": "theme-pompis",
+    "displayName": "ThemePompi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-menu"
+    },
+    "social_networks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.network-social-navigation"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.theme"
+    }
+  }
+}

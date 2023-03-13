@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_page_pompis",
+  "info": {
+    "singularName": "blog-page-pompi",
+    "pluralName": "blog-page-pompis",
+    "displayName": "BlogPagePompi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

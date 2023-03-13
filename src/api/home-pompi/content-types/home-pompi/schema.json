@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pompis",
+  "info": {
+    "singularName": "home-pompi",
+    "pluralName": "home-pompis",
+    "displayName": "HomePompi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "personal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.personal-info"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "description_author": {
+      "type": "string"
+    }
+  }
+}

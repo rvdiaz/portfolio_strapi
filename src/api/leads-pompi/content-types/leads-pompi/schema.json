@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads_pompis",
+  "info": {
+    "singularName": "leads-pompi",
+    "pluralName": "leads-pompis",
+    "displayName": "LeadsPompi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

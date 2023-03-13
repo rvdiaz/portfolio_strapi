@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pompis",
+  "info": {
+    "singularName": "contact-pompi",
+    "pluralName": "contact-pompis",
+    "displayName": "ContactPompi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.form-input"
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.button"
+    }
+  }
+}
