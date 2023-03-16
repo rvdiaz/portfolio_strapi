@@ -42,6 +42,11 @@
     },
     "description_author": {
       "type": "string"
+    },
+    "resume": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.link"
     }
   }
 }
