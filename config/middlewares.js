@@ -12,14 +12,14 @@ module.exports = [
             'data:',
             'blob:',
             'dl.airtable.com',
-            'rvdiaz-images.s3.us-east-1.amazonaws.com', // change here
+            '*.amazonaws.com', // change here
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'dl.airtable.com',
-            'rvdiaz-images.s3.us-east-1.amazonaws.com', // change here
+            '*.amazonaws.com', // change here
           ],
           upgradeInsecureRequests: null,
         },
