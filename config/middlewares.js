@@ -35,3 +35,5 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+
+/* 'rvdiaz-images.s3.us-east-1.amazonaws.com' */
